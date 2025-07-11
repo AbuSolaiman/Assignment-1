@@ -20,7 +20,7 @@
   transform: scale(1.05);
  }
  .header {
-  background-image: url(../Assets/Hero-bg.png);
+  background-image: url(../Assets/hero.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
