@@ -51,3 +51,34 @@
   font-weight: bold;
   margin-bottom: 35px;
  }
+ .action-container {
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  padding: 70px 90px;
+  border-radius: 25px;
+  margin: 70px auto;
+  max-width: 1200px;
+  gap: 45px;
+ }
+ .action-heading {
+  font-size: 45px;
+  color: #1d1b1b;
+  margin-bottom: 20px;
+  font-weight: bold;
+ }
+ .action-description {
+  color: #524e4e;
+  width: 65%;
+  margin-bottom: 30px;
+  line-height: 1.8;
+ }
+ .wc-img {
+  display: flex;
+  justify-content: center;
+ }
+ .wc-img img {
+  max-width: 100%;
+  border-radius: 25px;
+  box-shadow: 0 13px 22px rgb(24, 23, 23);
+ }
