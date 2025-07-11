@@ -118,7 +118,7 @@
  }
  .user-label {
   font-size: 22px;
-  color: #423e3e;
+  color: #464242;
   padding-top: 14px;
  }
  .reviews {
@@ -128,7 +128,7 @@
  .reviews-title {
   font-size: 45px;
   margin-bottom: 42px;
-  color: #272525;
+  color: #3d3a3a;
   font-weight: bold;
   text-align: center;
  }
@@ -141,11 +141,11 @@
   margin: 0 auto;
  }
  .review {
-  background: #ddd6d6;
+  background: #ebe4e4;
   border-radius: 22px;
   padding: 30px 20px;
   width: 380px;
-  box-shadow: 0 10px 30px rgb(14, 13, 13);
+  box-shadow: 0 10px 30px rgb(20, 19, 19);
  }
  .star-img {
   margin-bottom: 18px;
@@ -161,7 +161,7 @@
  }
  .review-description {
   font-size: 20px;
-  color: #5c5858;
+  color: #858181;
   margin: 18px 0 25px;
  }
  .user-info {
@@ -176,11 +176,11 @@
  }
  .user-ditailes .user-name {
   font-weight: 20px;
-  color: #7a7676;
+  color: #817d7d;
  }
  .user-ditailes {
   font-size: 18px;
-  color: #726f6f;
+  color: #858282;
  }
  .focus {
     background-color: #FFFFFF;
@@ -268,4 +268,34 @@
 }
 .contact-form textarea {
   resize: none;
+}
+.footer {
+    background-color: #fff;
+    padding: 60px 30px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+.footer .logo {
+    font-size: 88px;
+    margin-bottom: 20px;
+}
+.footer .description {
+    font-size: 16px;
+    max-width: 500px;
+    margin: 0 auto 30px auto;
+    line-height: 1.6;
+}
+.footer .more-page ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.footer .more-page ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
 }
