@@ -82,3 +82,42 @@
   border-radius: 25px;
   box-shadow: 0 13px 22px rgb(24, 23, 23);
  }
+ .user-container {
+  padding: 65px 85px;
+  border-radius: 25px;
+  margin: 65px auto;
+  max-width: 1200px;
+  gap: 45px;
+  background-color: #3434ee52;
+  align-items: center;
+  text-align: center;
+ }
+ .user-title {
+  font-size: 40px;
+  font-weight: bold;
+  padding-top: 0;
+  text-align: center;
+ }
+ .users-col {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap: 190px;
+  margin-top: 55px;
+  margin-bottom: 0;
+ }
+ .user {
+  margin-bottom: 0;
+ }
+ .user-num {
+  font-size: 90px;
+  font-weight: bold;
+  color: #4742ce;
+  font-family: sans-serif;
+ }
+ .user-label {
+  font-size: 22px;
+  color: #423e3e;
+  padding-top: 14px;
+ }
